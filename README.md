@@ -110,7 +110,7 @@ UTP+notes es una plataforma web que permite a los estudiantes de la Universidad 
 -MySQL (local)
 -new mysqli("localhost", "root", "Andylian129@", "utp_usuarios");
 
-**Postgresql.php(conexion necesaria a Postgre)**:
+**postgresql.php(conexion necesaria a Postgre)**:
 -PostgreSQL (local)
 $host = "localhost";
 $dbname = "Utp_Academico";
