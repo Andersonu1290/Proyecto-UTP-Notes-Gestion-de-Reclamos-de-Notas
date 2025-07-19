@@ -16,8 +16,8 @@ UTP+notes es una plataforma web que permite a los estudiantes de la Universidad 
 ## 🧑‍💻 Desarrolladores
 
 - **Anderson Urrutia Moreyra Benonits** **U23203203**  **andersonmolles129@gmail.com**
-- **Noe Benjamin Yallico Flores**       **U23252010**  **dancastro665@gmail.com**
-- **Cristhian Manuel Castro Quiñones**  **U23211928**  **yalliconoe@gmail.com**
+- **Noe Benjamin Yallico Flores**       **U23211928**  **yalliconoe@gmail.com**
+- **Cristhian Manuel Castro Quiñones**  **U23252010**  **dancastro665@gmail.com**
 
 
 ---
