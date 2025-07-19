@@ -19,7 +19,6 @@ UTP+notes es una plataforma web que permite a los estudiantes de la Universidad 
 - **Noe Benjamin Yallico Flores**       **U23211928**  **yalliconoe@gmail.com**
 - **Cristhian Manuel Castro Quiñones**  **U23252010**  **dancastro665@gmail.com**
 
-
 ---
 
 ## 🚀 Funcionalidades destacadas
@@ -36,18 +35,18 @@ UTP+notes es una plataforma web que permite a los estudiantes de la Universidad 
 
 ## 🧩 Tecnologías y herramientas utilizadas
 
-| Tecnología     | Uso principal                              |
-|----------------|---------------------------------------------|
-| **PHP 8.2+**     | Backend principal                          |
-| **HTML5 / CSS3** | Interfaz de usuario                        |
-| **JavaScript + AJAX** | Interacción dinámica sin recargar páginas |
-| **MySQL**       | Autenticación y usuarios                   |
-| **PostgreSQL**  | Cursos y notas                             |
-| **MongoDB Atlas** | Reclamos, seguimiento, y almacenamiento de archivos con GridFS |
-| **Cassandra (Astra DB)** | Notificaciones de eventos             |
-| **Redis (Redis Cloud)** | Registro de inicio y cierre de sesión |
-| **Python 3.10+** | Conexión a Cassandra vía `app.py` |
-| **Composer**    | Gestión de dependencias en PHP             |
+| Tecnología           | Uso principal                                      |
+|----------------------|----------------------------------------------------|
+| **PHP 8.2+**         | Backend principal                                  |
+| **HTML5 / CSS3**     | Interfaz de usuario                                |
+| **JavaScript + AJAX**| Interacción dinámica sin recargar páginas         |
+| **MySQL**            | Autenticación y usuarios                           |
+| **PostgreSQL**       | Cursos y notas                                     |
+| **MongoDB Atlas**    | Reclamos, seguimiento y archivos (GridFS)          |
+| **Cassandra (Astra DB)** | Notificaciones automáticas                     |
+| **Redis (Redis Cloud)** | Registro de sesiones                            |
+| **Python 3.10+**     | Conexión a Cassandra vía `app.py`                 |
+| **Composer**         | Gestión de dependencias en PHP                     |
 
 ---
 
@@ -56,18 +55,61 @@ UTP+notes es una plataforma web que permite a los estudiantes de la Universidad 
 - La carpeta `vendor/` es generada automáticamente por Composer y contiene:
   - `mongodb/mongodb`: para conectar PHP con MongoDB Atlas.
   - `predis/predis`: para conectar PHP con Redis.
-- Ya viene incluida en el repositorio con sus dependencias resueltas. Si decides actualizar, asegúrate de usar:
+- Ya viene incluida en el repositorio con sus dependencias resueltas. Si decides actualizar, asegúrate de usar Composer.
+
+---
 
 ## 🧠 Arquitectura del proyecto
 
-| Módulo | Tecnología | Descripción |
-|--------|------------|-------------|
-| Autenticación | MySQL | Gestión de usuarios y sesiones |
-| Notas y Cursos | PostgreSQL | Gestión de evaluaciones |
-| Reclamos y Archivos | MongoDB + GridFS | Almacenamiento de reclamos y PDFs |
-| Seguimiento | MongoDB | Estado en tiempo real de los reclamos |
-| Notificaciones | Cassandra (AstraDB) | Registro de cambios para los coordinadores |
-| Registro de sesiones | Redis | Almacena eventos de inicio y cierre de sesión |
+| Módulo                 | Tecnología            | Descripción                                          |
+|------------------------|------------------------|------------------------------------------------------|
+| Autenticación          | MySQL                  | Gestión de usuarios y sesiones                      |
+| Notas y Cursos         | PostgreSQL             | Gestión de evaluaciones                             |
+| Reclamos y Archivos    | MongoDB + GridFS       | Almacenamiento de reclamos y PDFs                   |
+| Seguimiento            | MongoDB                | Estado en tiempo real de los reclamos               |
+| Notificaciones         | Cassandra (AstraDB)    | Registro de cambios para los coordinadores          |
+| Registro de sesiones   | Redis                  | Almacena eventos de inicio y cierre de sesión       |
+
+---
+
+## 🗂️ Estructura de Bases de Datos
+
+Resumen de los motores de base de datos utilizados y sus respectivas entidades:
+
+### 🐬 MySQL
+- **Base de datos:** `utp_usuarios`
+- **Tablas:**
+  - `estudiantes`
+  - `profesores`
+  - `coordinadores`
+
+### 🐘 PostgreSQL
+- **Base de datos:** `Utp_Academico`
+- **Tablas:**
+  - `cursos`
+  - `notas`
+
+### 🍃 MongoDB Atlas
+- **Base de datos:** `utp_reclamos`
+- **Colecciones:**
+  - `reclamos`
+  - `seguimientos`
+  - `fs.files` (archivos con GridFS)
+  - `fs.chunks` (fragmentos de archivos)
+
+### 🚀 Cassandra (AstraDB)
+- **Base de datos:** `utp_eventos`
+- **Keyspace:** `default_keyspace`
+- **Tablas:**
+  - `notificaciones`
+
+### 🔴 Redis (Redis Cloud)
+- **Base lógica:** `registro_sesiones`
+- **Claves:**
+  - `session:<usuario_id>:start`
+  - `session:<usuario_id>:end`
+
+---
 
 ## 🛠️ Requisitos previos
 
@@ -80,15 +122,17 @@ UTP+notes es una plataforma web que permite a los estudiantes de la Universidad 
   - `ext-curl`
   - `ext-json`
   - `ext-zip`
-- Acceso a:
-  - MongoDB Atlas
-    https://cloud.mongodb.com/v2/68506ea3cd29416e6018941b#/overview
-  - AstraDB (Cassandra)
-    https://astra.datastax.com/org/59e1b623-f2b9-4afc-a062-3e2ba0bc2b02/database/dec5c0ac-1638-4930-8745-d5794df3f521/data-explorer
-  - Redis Cloud
-    https://ri.redis.io/13398622/browser?v=1752941190175
-    
-**Conexiones necesarias para las bases de datos**
+- Acceso a servicios externos:
+  - MongoDB Atlas  
+    https://cloud.mongodb.com/v2/68506ea3cd29416e6018941b#/overview  
+  - AstraDB (Cassandra)  
+    https://astra.datastax.com/org/59e1b623-f2b9-4afc-a062-3e2ba0bc2b02/database/dec5c0ac-1638-4930-8745-d5794df3f521/data-explorer  
+  - Redis Cloud  
+    https://ri.redis.io/13398622/browser?v=1752941190175  
+
+---
+
+## 🔐 Conexiones necesarias para las bases de datos
 
 **MongoDB Atlas**:
 -Cuenta: lopezgrupotrabajo@gmail.com
