@@ -124,8 +124,8 @@ La cuenta lopezgrupotrabajo@gmail.com fue creada para fines de conexion de bd na
 
 1. **Clona este repositorio**
    ```bash
-   git clone https://github.com/Andersonu1290/Proyecto-UTP-Notes-Gestion-de-Reclamos-de-Notas.git
-   cd GestionReclamosUTP
+    cd C:\xampp\htdocs
+    git clone https://github.com/Andersonu1290/Proyecto-UTP-Notes-Gestion-de-Reclamos-de-Notas.git
    
 2.**Coloca el proyecto en la carpeta htdocs de XAMPP**
 C:\xampp\htdocs\GestionReclamosUTP
