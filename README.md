@@ -7,7 +7,7 @@ https://youtu.be/BV7V9IjIjaA
 
 **NO OLVIDE EJECUTAR EL APP.PY(es para que funcionen las notificaciones)**
 
-**Usar el txt usado en el ejemplo para probar los dashboards Ejemplo : BD2 Proyecto Login**
+**Usar el txt usado en el ejemplo para probar los dashboards Ejemplo : Prueba del video**
 
 ## 🚀 Funcionalidades principales
 
