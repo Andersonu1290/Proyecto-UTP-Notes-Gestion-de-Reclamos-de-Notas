@@ -1,0 +1,10 @@
+MongoDB Atlas: -Cuenta: lopezgrupotrabajo@gmail.com -Contraseña: Lionelmessi -Colecciones: reclamos, seguimientos, fs.files, fs.chunks
+LinkMongoDB:https://cloud.mongodb.com/v2/68506ea3cd29416e6018941b#/overview
+
+Redis Cloud: -Cuenta: lopezgrupotrabajo@gmail.com -Contraseña: Lionelmessi -Base para almacenar: registro_sesiones
+LinkRedis:https://ri.redis.io/13398622/browser?v=1752941190175
+
+Astra DB (Cassandra): -Cuenta: lopezgrupotrabajo@gmail.com -Contraseña: Lionelmessi -Base de datos: utp_eventos -Keyspace: default_keyspace
+LinkCassandra:https://astra.datastax.com/org/59e1b623-f2b9-4afc-a062-3e2ba0bc2b02/database/dec5c0ac-1638-4930-8745-d5794df3f521/data-explorer
+
+Justificación:Decidimos usar bases de datos en la nube como MongoDB Atlas, Redis Cloud y Astra DB (Cassandra) en lugar de instalarlas localmente porque nos facilita el trabajo en equipo. Al estar en la nube, todos podemos acceder a la información desde cualquier lugar sin depender de un solo equipo.

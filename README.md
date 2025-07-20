@@ -2,6 +2,11 @@
 
 UTP+notes es una plataforma web que permite a los estudiantes de la Universidad Tecnológica del Perú (UTP) registrar reclamos sobre sus notas académicas, a los profesores revisar dichos reclamos y a los coordinadores supervisar y controlar todo el proceso. El sistema está desarrollado con múltiples motores de base de datos y tecnologías modernas, integrando tanto bases relacionales como no relacionales para gestionar información distribuida.
 
+**Link de demostracion del proyecto en youtube**
+
+
+**NO OLVIDE EJECUTAR EL APP.PY(es para que funcionen las notificaciones)**
+
 ## 🚀 Funcionalidades principales
 
 - Registro e inicio de sesión para estudiantes, profesores y coordinadores.

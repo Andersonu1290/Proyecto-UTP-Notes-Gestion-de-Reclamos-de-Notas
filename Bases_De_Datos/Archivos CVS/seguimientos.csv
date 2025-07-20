@@ -1,0 +1,12 @@
+_id,reclamo_id,estado,comentario,fecha,actualizado_por,estudiante_id
+68769ab8a0399cc8c200f2a9,68769ab8a0399cc8c200f2a8,Aceptado,Nota cambiada por Benjamin Galvez.,2025-07-18T16:02:07.635Z,Benjamin Galvez,1
+68769aefa0399cc8c200f2b1,68769aefa0399cc8c200f2b0,En revisión,Reclamo validado por el coordinador.,2025-07-19T22:17:36.095Z,Ana Ramos,1
+68769d50a0399cc8c200f2bf,68769d50a0399cc8c200f2be,pendiente,Reclamo registrado por el estudiante.,2025-07-15T18:26:24.620Z,U89604228@utp.edu.pe,1
+6879886dbae90a1e1b026277,6879886dbae90a1e1b026276,Aceptado,Nota cambiada por Benjamin Galvez.,2025-07-17T23:37:41.336Z,Benjamin Galvez,1
+68798abcbae90a1e1b026280,68798abcbae90a1e1b02627f,Aceptado,Nota cambiada por Benjamin Galvez.,2025-07-17T23:46:03.625Z,Benjamin Galvez,1
+687a794f93ee54e73a0de63c,687a794f93ee54e73a0de63b,Rechazado,Reclamo rechazado por el profesor.,2025-07-18T16:44:25.947Z,Benjamin Galvez,1
+687a7ed293ee54e73a0de641,687a7ed193ee54e73a0de640,Aceptado,Nota cambiada por Benjamin Galvez.,2025-07-18T17:07:55.155Z,Benjamin Galvez,1
+687c0ada1aa313e17a04b739,687c0ada1aa313e17a04b738,Aceptado,Nota cambiada por Adriano Ramos.,2025-07-19T23:05:30.131Z,Adriano Ramos,101
+687c138b1aa313e17a04b73f,687c138b1aa313e17a04b73e,Rechazado,Reclamo rechazado por el profesor.,2025-07-19T23:05:20.031Z,Adriano Ramos,101
+687c19d1524e40e4960a5a4b,687c19d1524e40e4960a5a4a,Aceptado,Nota cambiada por Adriano Ramos.,2025-07-19T22:50:14.688Z,Adriano Ramos,101
+687c255f524e40e4960a5a4f,687c255f524e40e4960a5a4e,En revisión,Reclamo validado por el coordinador.,2025-07-19T23:08:31.754Z,Ana Ramos,101

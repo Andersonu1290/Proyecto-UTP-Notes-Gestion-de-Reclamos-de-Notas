@@ -1,0 +1,12 @@
+_id,estudiante_id,curso_id,motivo,descripcion,estado,fecha_reclamo,tipo_evaluacion,archivo_adjunto,prioridad,id_profesor_asignado,respuesta_docente,fecha_respuesta,resuelto_por
+68769ab8a0399cc8c200f2a8,1,FIS302,Mi nota,siento que mi nota es muy baja,Aceptado,2025-07-14T22:00:00.000Z,Parcial,68769ab0a0399cc8c200f2a2,alta,39,En revisión,,
+68769aefa0399cc8c200f2b0,1,FIS302,Mi nota,baja,En revisión,2025-07-14T22:00:00.000Z,Parcial,68769aeba0399cc8c200f2aa,alta,39,En revisión,,
+68769d50a0399cc8c200f2be,1,FIS302,Mi nota,Sient,pendiente,2025-07-14T22:00:00.000Z,Parcial,68769d43a0399cc8c200f2b9,alta,39,En revisión,,
+6879886dbae90a1e1b026276,1,FIS302,mis noras,porfa revisar,Aceptado,2025-07-17T22:00:00.000Z,Parcial,68798869bae90a1e1b026271,alta,39,En revisión,,
+68798abcbae90a1e1b02627f,1,FIS302,mi nota revisar,revisar,Aceptado,2025-07-17T22:00:00.000Z,Parcial,68798ab3bae90a1e1b02627a,alta,39,En revisión,,
+687a794f93ee54e73a0de63b,1,FIS302,nota revisar ,porfa revisar nota,Rechazado,2025-07-17T22:00:00.000Z,Parcial,687a794c93ee54e73a0de637,alta,39,En revisión,,
+687a7ed193ee54e73a0de640,1,FIS302,necesitan revisar,porfa revisar,Aceptado,2025-07-17T22:00:00.000Z,Parcial,687a7ed093ee54e73a0de63d,alta,39,En revisión,,
+687c0ada1aa313e17a04b738,101,IA406,Mi notaa,Mi nota es baja,Aceptado,2025-07-18T22:00:00.000Z,Parcial,687c0ad91aa313e17a04b736,alta,1,En revisión,,
+687c138b1aa313e17a04b73e,101,IA406,Mi nota es muy baja,Pucha,Rechazado,2025-07-18T22:00:00.000Z,Parcial,687c138a1aa313e17a04b73c,alta,1,En revisión,,
+687c19d1524e40e4960a5a4a,101,IA406,Mi nota es muy baja,SDAS,Aceptado,2025-07-19T22:00:00.000Z,Parcial,687c19d0524e40e4960a5a48,alta,1,En revisión,,
+687c255f524e40e4960a5a4e,101,IA406,asddas,asdasd,En revisión,2025-07-19T22:00:00.000Z,Parcial,687c255e524e40e4960a5a4c,alta,1,En revisión,,

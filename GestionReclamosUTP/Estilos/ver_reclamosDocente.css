@@ -1,0 +1,36 @@
+/* ==== BOTONES DE ACTUALIZACIÓN DE NOTA ==== */
+.boton-actualizar {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.boton-actualizar:hover {
+    opacity: 0.95;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.aceptar {
+    background-color: #27ae60;
+    border: 1px solid #1e8449;
+}
+
+.rechazar {
+    background-color: #c0392b;
+    border: 1px solid #922b21;
+}
+
+.form-editar-nota {
+    background: #f0f8ff;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

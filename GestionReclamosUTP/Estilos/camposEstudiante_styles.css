@@ -1,0 +1,268 @@
+/* CURSOS Y NOTAS */
+.main {
+    padding: 20px;
+}
+
+.main-header h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table.tabla-notas th,
+table.tabla-notas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table.tabla-notas th {
+    background-color: #f1615c;
+    color: white;
+}
+
+table.tabla-notas tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+table.tabla-notas td {
+    background-color: #fff;
+}
+
+.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+}
+
+.tabla-notas th,
+.tabla-notas td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-notas th {
+    background-color: #004080;
+    color: white;
+}
+
+.tabla-notas tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+
+    table.tabla-notas th,
+    table.tabla-notas td {
+        font-size: 12px;
+    }
+}
+
+
+
+/* REGISTRO DE RECLAMOS */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+}
+
+.main {
+    padding: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+form select,
+form input[type="text"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+form select:focus,
+form input:focus,
+form textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+.boton-accion {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-accion:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.02);
+}
+
+.info-box {
+    background-color: #eef3ff;
+    border-left: 5px solid #2563eb;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.info-box p {
+    margin: 4px 0;
+    color: #34495e;
+}
+
+.main-header h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.sidebar h1.logo-title {
+    font-size: 26px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.notificaciones h3 {
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+/* SEGUIMIENTO DE RECLAMOS */
+.contenido-principal {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+    padding: 12px 14px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+}
+
+.volver {
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.volver:hover {
+    background-color: #1e40af;
+}
+
+.barra-progreso {
+    height: 16px;
+    border-radius: 10px;
+    background-color: #e2e8f0;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+.progreso {
+    height: 100%;
+    transition: width 0.4s ease;
+}
+
+.pendiente .progreso {
+    width: 25%;
+    background-color: orange;
+}
+
+.revision .progreso {
+    width: 50%;
+    background-color: #0ea5e9;
+}
+
+.aceptado .progreso {
+    width: 100%;
+    background-color: green;
+}
+
+.rechazado .progreso {
+    width: 100%;
+    background-color: red;
+}
+
+.estado-texto {
+    font-weight: bold;
+    font-size: 12px;
+}

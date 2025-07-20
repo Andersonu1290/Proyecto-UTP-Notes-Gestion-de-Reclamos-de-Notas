@@ -1,0 +1,30 @@
+1,MAT101,Matemáticas Básicas,"Curso de álgebra, aritmética y lógica matemática",4,1,Ingeniería,Presencial,activo
+2,FIS101,Física General,Conceptos fundamentales de la física clásica,3,1,Ingeniería,Presencial,activo
+3,INF102,Fundamentos de Programación,Introducción a la programación estructurada,4,1,Ing. Sistemas,Virtual,activo
+4,ADM202,Administración I,Teoría administrativa clásica y moderna,3,2,Administración,Presencial,activo
+5,COM203,Comunicación Efectiva,Técnicas de redacción y comunicación oral,2,2,Ciencias Humanas,Presencial,activo
+6,EST204,Estadística I,Probabilidad y estadística descriptiva,3,2,Ingeniería,Presencial,activo
+7,ECO205,Economía General,Principios de micro y macroeconomía,3,2,Economía,Semipresencial,activo
+8,DRE206,Derecho Empresarial,Fundamentos de derecho para los negocios,3,3,Administración,Virtual,activo
+9,MAR301,Marketing I,Fundamentos del marketing y comportamiento del consumidor,3,3,Administración,Presencial,activo
+10,FIS302,Física II,"Ondas, electricidad y magnetismo",3,3,Ingeniería,Presencial,activo
+11,MAT302,Matemáticas Avanzadas,Ecuaciones diferenciales y cálculo vectorial,4,3,Ingeniería,Presencial,activo
+12,BD303,Base de Datos I,"Modelo relacional, SQL y diseño de bases de datos",4,3,Ing. Sistemas,Virtual,activo
+13,SIS304,Sistemas Operativos,"Gestión de procesos, memoria y archivos",4,3,Ing. Sistemas,Presencial,activo
+14,RED305,Redes I,"Modelo OSI y TCP/IP, direccionamiento IP",3,4,Ing. Sistemas,Presencial,activo
+15,CON306,Contabilidad General,Registro contable y estados financieros básicos,3,4,Administración,Presencial,activo
+16,FIN401,Finanzas I,Análisis financiero básico y decisiones de inversión,3,4,Administración,Virtual,activo
+17,PSI402,Psicología Organizacional,Conducta humana en entornos laborales,2,4,Ciencias Humanas,Presencial,activo
+18,ETH403,Ética Profesional,Ética en el ejercicio profesional,2,4,General,Presencial,activo
+19,PRO404,Programación Web,"HTML, CSS, JavaScript y backend básico",4,5,Ing. Sistemas,Presencial,activo
+20,SEG405,Seguridad Informática,"Criptografía, hacking ético y firewalls",3,5,Ing. Sistemas,Virtual,activo
+21,IA406,Inteligencia Artificial,Algoritmos de aprendizaje automático,4,5,Ing. Sistemas,Presencial,activo
+22,BIO407,Biología Básica,"Genética, evolución y ecología",2,1,Ciencias,Presencial,activo
+23,QUI408,Química General,Estructura atómica y enlaces químicos,3,1,Ciencias,Presencial,activo
+24,SOC409,Sociología,Estructuras sociales y análisis de la cultura,2,2,Ciencias Humanas,Presencial,activo
+25,LOG410,Lógica y Argumentación,Pensamiento lógico formal,2,1,General,Presencial,activo
+26,ADM411,Gestión de Proyectos,"PMI, cronogramas y gestión de riesgos",3,5,Administración,Virtual,activo
+27,SIS412,Arquitectura de Computadoras,"Hardware, buses y ensamblador",3,4,Ing. Sistemas,Presencial,activo
+28,SIS413,Ingeniería de Software,Ciclo de vida de software y metodologías ágiles,4,5,Ing. Sistemas,Presencial,activo
+29,RED414,Redes II,"Routing, switching y configuración de redes",3,5,Ing. Sistemas,Presencial,activo
+30,TIC415,Transformación Digital,Tendencias en innovación tecnológica,3,6,General,Virtual,activo

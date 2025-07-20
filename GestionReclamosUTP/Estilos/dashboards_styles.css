@@ -1,0 +1,169 @@
+/* DASHBOARD DEL ESTUDIANTE */
+.notificaciones a.btn-toggle {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.notificaciones a.btn-toggle:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.notificaciones .noti-wrapper {
+    position: relative;
+}
+
+.notificaciones p {
+    background-color: #f1615c;
+    padding: 8px 35px 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.notificaciones strong {
+    color: white;
+}
+
+.coordinador-noti-content.hidden {
+    display: none;
+}
+
+.boton-eliminar {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.noti-wrapper:hover .boton-eliminar {
+    display: block;
+}
+
+
+
+/* DASHBOARD DEL COORDINADOR */
+.coordinador-noti-content.hidden {
+    display: none;
+}
+
+.noti-wrapper {
+    position: relative;
+}
+
+.coordinador-noti-content .noti {
+    background-color: #f1615c;
+    padding: 8px 35px 8px 10px;
+    border-left: 4px solid #f1615c;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.boton-eliminar {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.noti-wrapper:hover .boton-eliminar {
+    display: block;
+}
+
+.noti-toggle {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-title {
+    font-size: 24px;
+}
+
+.user-menu {
+    display: none;
+}
+
+.user-menu.visible {
+    display: block;
+}
+
+
+
+/* DASHBOARD DEL DOCENTE */
+.notificaciones a.btn-toggle {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #f1615c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.notificaciones a.btn-toggle:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+.notificaciones .noti-wrapper {
+    position: relative;
+}
+
+.notificaciones p {
+    background-color: #f1615c;
+    padding: 8px 35px 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.notificaciones strong {
+    color: #fff;
+}
+
+.coordinador-noti-content.hidden {
+    display: none;
+}
+
+.boton-eliminar {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.noti-wrapper:hover .boton-eliminar {
+    display: block;
+}

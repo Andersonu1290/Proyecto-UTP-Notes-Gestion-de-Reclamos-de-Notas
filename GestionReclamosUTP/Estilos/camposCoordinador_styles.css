@@ -1,0 +1,249 @@
+/* REVISAR RECLAMOS DE LOS ESTUDIANTES - COORDINADOR */
+.boton-actualizar {
+    background-color: #2980b9;
+    color: white;
+    padding: 6px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.boton-actualizar:hover {
+    opacity: 0.9;
+}
+
+.validar {
+    background-color: #27ae60;
+}
+
+.rechazar {
+    background-color: #c0392b;
+}
+
+.mensaje-alerta {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    background: #fdecea;
+    color: #c0392b;
+}
+
+.exito {
+    background: #e9f9ec;
+    color: #27ae60;
+}
+
+
+
+/* VER TODOS LOS ESTUDIANTES */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main-header h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table.tabla-notas th,
+table.tabla-notas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table.tabla-notas th {
+    background-color: #f1615c;
+    color: white;
+}
+
+table.tabla-notas tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+table.tabla-notas td {
+    background-color: #fff;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f1615c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+
+
+/* VER TODOS LOS PROFESORES */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main-header h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table.tabla-notas th,
+table.tabla-notas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table.tabla-notas th {
+    background-color: #f1615c;
+    color: white;
+}
+
+table.tabla-notas tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+table.tabla-notas td {
+    background-color: #fff;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f1615c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+
+
+/* VER LOS INICIOS Y CIERRES DE SESIÓN */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main-header h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table.tabla-notas th,
+table.tabla-notas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table.tabla-notas th {
+    background-color: #f1615c;
+    color: white;
+}
+
+table.tabla-notas tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+table.tabla-notas td {
+    background-color: #fff;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f1615c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+_id,notificacion_id,titulo,mensaje,fecha_envio,estado,tipo,destinatario,evento_relacionado,canal
+58106008-956d-4eef-9060-08956d8eefd6,21,Recordatorio 21,No olvides asistir al evento asignado y confirmar tu participación.,13/06/2025,Pendiente,Confirmación,U23203203@utp.edu.pe,3,Aplicación Móvil
+ce6b8a29-adce-439b-ab8a-29adce039b4a,14,Recordatorio 14,No olvides asistir al evento asignado y confirmar tu participación.,10/06/2025,Enviado,Recordatorio,U62429353@utp.edu.pe,7,Aplicación Móvil
+4afb9a3f-93f0-488d-bb9a-3f93f0788d92,19,Recordatorio 19,No olvides asistir al evento asignado y confirmar tu participación.,11/06/2025,Fallido,Confirmación,usuario19@utp.edu.pe,28,Aplicación Móvil
+5d7d3268-7984-4b8a-bd32-6879840b8aa4,13,Recordatorio 13,No olvides asistir al evento asignado y confirmar tu participación.,07/06/2025,Fallido,Confirmación,usuario13@utp.edu.pe,27,SMS
+a3b4c90a-bbab-4fc9-b4c9-0abbab0fc9a2,25,Recordatorio 25,No olvides asistir al evento asignado y confirmar tu participación.,09/06/2025,Pendiente,Alerta,usuario25@utp.edu.pe,16,Aplicación Móvil
+32eb026c-ca95-42ea-ab02-6cca9542ead8,23,Recordatorio 23,No olvides asistir al evento asignado y confirmar tu participación.,14/06/2025,Fallido,Recordatorio,usuario23@utp.edu.pe,14,Correo
+fab9c637-97a1-4fb1-b9c6-3797a1dfb181,24,Recordatorio 24,No olvides asistir al evento asignado y confirmar tu participación.,16/06/2025,Fallido,Recordatorio,usuario24@utp.edu.pe,23,Aplicación Móvil
+99cc39b2-4287-44ab-8c39-b2428794abe1,7,Recordatorio 7,No olvides asistir al evento asignado y confirmar tu participación.,09/06/2025,Pendiente,Recordatorio,usuario7@utp.edu.pe,19,Aplicación Móvil
+59c47839-30e4-4d17-8478-3930e44d17e0,20,Recordatorio 20,No olvides asistir al evento asignado y confirmar tu participación.,15/06/2025,Pendiente,Confirmación,usuario20@utp.edu.pe,21,Aplicación Móvil
+eb326ece-25cc-4600-b26e-ce25cc7600a8,22,Recordatorio 22,No olvides asistir al evento asignado y confirmar tu participación.,13/06/2025,Pendiente,Alerta,usuario22@utp.edu.pe,9,Aplicación Móvil
+88c00422-6f91-4820-8004-226f919820ef,3,Recordatorio 3,No olvides asistir al evento asignado y confirmar tu participación.,08/06/2025,Enviado,Recordatorio,usuario3@utp.edu.pe,8,Correo
+759d6ceb-e116-4c4c-9d6c-ebe116dc4cbf,9,Recordatorio 9,No olvides asistir al evento asignado y confirmar tu participación.,11/06/2025,Enviado,Recordatorio,usuario9@utp.edu.pe,29,SMS
+24d3af90-8e4e-4653-93af-908e4ef653b2,15,Recordatorio 15,No olvides asistir al evento asignado y confirmar tu participación.,08/06/2025,Pendiente,Confirmación,usuario15@utp.edu.pe,3,Correo
+ad4db4ae-a90f-455a-8db4-aea90f055acc,29,Recordatorio 29,No olvides asistir al evento asignado y confirmar tu participación.,11/06/2025,Pendiente,Recordatorio,usuario29@utp.edu.pe,12,Correo
+89b2f545-ccbc-4609-b2f5-45ccbcf609f6,4,Recordatorio 4,No olvides asistir al evento asignado y confirmar tu participación.,10/06/2025,Enviado,Alerta,usuario4@utp.edu.pe,15,Aplicación Móvil
+41dcd970-2b52-4cc8-9cd9-702b52acc88c,17,Recordatorio 17,No olvides asistir al evento asignado y confirmar tu participación.,09/06/2025,Fallido,Alerta,usuario17@utp.edu.pe,10,SMS
+8d08e2c8-e062-494f-88e2-c8e062694ff9,26,Recordatorio 26,No olvides asistir al evento asignado y confirmar tu participación.,10/06/2025,Fallido,Alerta,usuario26@utp.edu.pe,8,SMS
+39cfc5ed-6f34-4a94-8fc5-ed6f344a9472,28,Recordatorio 28,No olvides asistir al evento asignado y confirmar tu participación.,15/06/2025,Pendiente,Confirmación,usuario28@utp.edu.pe,16,SMS
+be554f03-3321-42fb-954f-03332182fbb7,8,Recordatorio 8,No olvides asistir al evento asignado y confirmar tu participación.,11/06/2025,Fallido,Alerta,usuario8@utp.edu.pe,20,SMS
+9b97c112-043e-494c-97c1-12043e394cba,10,Recordatorio 10,No olvides asistir al evento asignado y confirmar tu participación.,12/06/2025,Enviado,Recordatorio,usuario10@utp.edu.pe,18,Aplicación Móvil
+5720128b-1141-461d-a012-8b1141661d1f,2,Recordatorio 2,No olvides asistir al evento asignado y confirmar tu participación.,07/06/2025,Enviado,Recordatorio,usuario2@utp.edu.pe,10,SMS
+2af5fe92-6206-408b-b5fe-926206708bae,11,Recordatorio 11,No olvides asistir al evento asignado y confirmar tu participación.,15/06/2025,Pendiente,Recordatorio,usuario11@utp.edu.pe,27,Aplicación Móvil
+56f7392a-7d23-4bc4-b739-2a7d232bc4e3,27,Recordatorio 27,No olvides asistir al evento asignado y confirmar tu participación.,09/06/2025,Enviado,Confirmación,usuario27@utp.edu.pe,17,Correo
+22b55916-6aaf-4fb7-b559-166aafafb7c5,18,Recordatorio 18,No olvides asistir al evento asignado y confirmar tu participación.,12/06/2025,Fallido,Alerta,usuario18@utp.edu.pe,22,Aplicación Móvil
+03e33a00-f418-4197-a33a-00f418319765,6,Recordatorio 6,No olvides asistir al evento asignado y confirmar tu participación.,07/06/2025,Pendiente,Recordatorio,usuario6@utp.edu.pe,6,Correo
+5b94eae7-d10d-470c-94ea-e7d10df70cc4,16,Recordatorio 16,No olvides asistir al evento asignado y confirmar tu participación.,09/06/2025,Pendiente,Recordatorio,usuario16@utp.edu.pe,21,Correo
+430f1bc7-2183-4906-8f1b-c721839906ad,30,Recordatorio 30,No olvides asistir al evento asignado y confirmar tu participación.,14/06/2025,Pendiente,Recordatorio,usuario30@utp.edu.pe,12,SMS
+35980c0b-dba1-47d3-980c-0bdba1b7d3f1,12,Recordatorio 12,No olvides asistir al evento asignado y confirmar tu participación.,15/06/2025,Enviado,Alerta,usuario12@utp.edu.pe,27,Aplicación Móvil
+49a0af8a-8499-4fa6-a0af-8a8499dfa6fd,1,Recordatorio 1,No olvides asistir al evento asignado y confirmar tu participación.,08/06/2025,Fallido,Alerta,usuario1@utp.edu.pe,3,Aplicación Móvil
+a650bffd-4a47-42f6-90bf-fd4a4792f67e,5,Recordatorio 5,No olvides asistir al evento asignado y confirmar tu participación.,16/06/2025,Pendiente,Alerta,usuario5@utp.edu.pe,19,Correo

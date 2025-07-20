@@ -1,0 +1,358 @@
+/* ESTILOS DEL INDEX - INICIO DE SESIÓN */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    background-color: #eef4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    max-width: 80%;
+    height: auto;
+}
+
+.right {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.info {
+    font-size: 12px;
+    color: #888;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #0066ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #004ecc;
+}
+
+
+
+/* ESTILOS GENERALES PARA LOS DASHBOARDS - BARRAS, ÁREA, NOTIFICACIONES */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    background-color: #f1615c;
+    color: white;
+    padding: 30px 20px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.logo-title {
+    background-color: white;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.sidebar .notificaciones h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sidebar .notificaciones p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.main {
+    margin-left: 260px;
+    flex: 1;
+    padding: 40px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.main-header h1 {
+    font-size: 28px;
+    color: #010003;
+}
+
+.user-info {
+    position: relative;
+    font-size: 14px;
+    color: #004080;
+    cursor: pointer;
+}
+
+.user-info span {
+    padding: 10px;
+    background-color: #e7f3ff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.user-info span:hover {
+    background-color: #d0e5ff;
+}
+
+.user-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 100;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    min-width: 160px;
+}
+
+.user-menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+.user-menu a:hover {
+    background-color: #f0f0f0;
+    color: #004080;
+}
+
+.user-menu.visible {
+    display: block;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    overflow-x: auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #004080;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* ESTADO DE NOTIFICACIONES DEL COORDINADOR */
+.coordinador-badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+
+.coordinador-noti-content.hidden {
+    display: none;
+}
+
+.coordinador-noti-pendiente {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.coordinador-noti-leído {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.coordinador-noti-respondido {
+    background-color: #d1ecf1;
+    border-left: 4px solid #17a2b8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* ESTILOS PARA LOS BOTONES Y CAMPOS */
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card th,
+.card td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.card th {
+    background-color: #004080;
+    color: white;
+}
+
+.action-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 6px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #1e40af;
+    text-decoration: none;
+}
+
+.boton-accion {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.boton-accion:hover {
+    background-color: #1e40af;
+}
