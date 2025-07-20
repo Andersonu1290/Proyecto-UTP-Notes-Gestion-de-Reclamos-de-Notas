@@ -7,6 +7,8 @@ https://youtu.be/BV7V9IjIjaA
 
 **NO OLVIDE EJECUTAR EL APP.PY(es para que funcionen las notificaciones)**
 
+**Usar el txt usado en el ejemplo para probar los dashboards Ejemplo : BD2 Proyecto Login**
+
 ## 🚀 Funcionalidades principales
 
 - Registro e inicio de sesión para estudiantes, profesores y coordinadores.
