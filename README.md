@@ -141,6 +141,8 @@ Resumen de los motores de base de datos utilizados y sus respectivas entidades:
 
 ## 🔐 Conexiones necesarias para las bases de datos
 
+El correo que se muestra , tiene que iniciar sesión gmail
+
 **MongoDB Atlas**:
 -Cuenta: lopezgrupotrabajo@gmail.com
 -Contraseña: Lionelmessi
